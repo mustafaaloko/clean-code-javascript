@@ -118,7 +118,7 @@ Explicit is better than implicit.
 
 **Bad:**
 ```javascript
-const locations = ['Austin', 'New York', 'San Francisco'];
+const l = ['Austin', 'New York', 'San Francisco'];
 locations.forEach((l) => {
   doStuff();
   doSomeOtherStuff();
